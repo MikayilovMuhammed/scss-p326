@@ -1,0 +1,65 @@
+.col-1 {
+  width: calc(100% / 12 * 1);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+
+#btns-2 .btn-first, #btns-2 .btn-second, #btns-2 .btn-thirdy, #btns-2 .btn-fourth {
+  background-color: yellow;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: green;
+}
+
+h1 span {
+  color: aqua;
+}
+
+h3 {
+  color: green;
+}
+
+h4 {
+  color: green;
+}
+
+h5 {
+  color: green;
+}
+
+ul li {
+  display: inline-block;
+  color: green;
+}
+
+#btns .btn-first {
+  color: black;
+  background-color: yellow;
+  padding: 15px 40px;
+  border-radius: 8px;
+}
+
+#btns .btn-second {
+  color: white;
+  background-color: brown;
+  padding: 15px 40px;
+  border-radius: 8px;
+}
+
+#btns-2 .btn-thirdy {
+  background-color: pink;
+}

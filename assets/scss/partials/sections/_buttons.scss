@@ -1,0 +1,25 @@
+#btns {
+
+    // .btn-first {
+    //     @include btns;
+    // }
+    // .btn-second {
+    //     @include btns($background-color: brown, $color: white);
+    // }
+    // .btn-thirdy {
+    //     @include btns($background-color: green, $color: aqua);
+    // }
+    // .btn-fourth {
+    //     @include btns($background-color: pink, $color: white);
+    // }
+
+    .btn {
+        &-first {
+            @include btns;
+        }
+
+        &-second {
+            @include btns($background-color: brown, $color: white);
+        }
+    }
+}

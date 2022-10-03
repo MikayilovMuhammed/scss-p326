@@ -1,0 +1,26 @@
+// @use '../base';
+
+
+h1 {
+    color: $main-color;
+
+    span {
+        color: aqua;
+    }
+}
+
+h2 {
+    // color: base.$primary;
+}
+
+h3 {
+    color: $main-color;
+}
+
+h4 {
+    color: $main-color;
+}
+
+h5 {
+    color: $main-color;
+}

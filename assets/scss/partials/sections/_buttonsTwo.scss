@@ -1,0 +1,15 @@
+#btns-2 {
+    .btn-first {
+        @extend %btns;
+    }
+    .btn-second {
+        @extend %btns;
+    }
+    .btn-thirdy {
+        @extend %btns;
+        background-color: pink;
+    }
+    .btn-fourth {
+        @extend %btns;
+    }
+}
